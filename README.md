@@ -4,6 +4,8 @@ Learning Java programming language
 
 :heart: ***My steps of JAVA LEARN*** :heart:
 
+***Section One***
+
 :ballot_box_with_check: Variables
 
 :ballot_box_with_check: Datatypes
@@ -13,6 +15,8 @@ Learning Java programming language
 :ballot_box_with_check: Expressions
 
 :ballot_box_with_check: Statements
+
+***Section Two***
 
 :ballot_box_with_check: Methods
 
