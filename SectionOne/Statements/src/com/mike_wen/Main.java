@@ -30,6 +30,9 @@ public class Main {
                 System.out.println("It's true");
             }
 
+            boolean wasCar = isCar ? true : false;
+            System.out.println("Was car is " + wasCar);
+
     }
 
 
