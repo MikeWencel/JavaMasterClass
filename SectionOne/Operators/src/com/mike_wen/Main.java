@@ -14,7 +14,19 @@ public class Main {
         result = result % 3;
         System.out.println("5 % 3 = " + result);
 
-        result++;
-        System.out.println("2 + 2 = " + result);
+        result++; // 3
+        System.out.println("2 + 1 = " + result);
+
+        result--; // 2
+        System.out.println("4 - 2  = " + result);
+
+        result *= 10; //20
+        System.out.println("2 * 10 = " + result);
+
+        result /= 2;
+        System.out.println("20 / 2 = " + result);
+
+        result -= 8;
+        System.out.println("10 - 8 = " + result);
     }
 }
