@@ -33,6 +33,27 @@ public class Main {
             boolean wasCar = isCar ? true : false;
             System.out.println("Was car is " + wasCar);
 
+
+            int playerLives = 3; // 3
+            System.out.println("Player lives = " + playerLives);
+
+        playerLives--; // 2
+        System.out.println("playerLives-- = " + playerLives);
+
+        playerLives++; // 3
+        System.out.println("playerLives++ = " + playerLives);
+
+        playerLives += --playerLives; // 5
+        System.out.println("playerLives += --playerLives = " + playerLives);
+
+        // 6
+        System.out.println("++playerLives = " + ++playerLives);
+        
+//        playerLives = 3;
+//        System.out.println("Player lives = " + playerLives);
+//
+
+
     }
 
 
