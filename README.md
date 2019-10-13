@@ -22,11 +22,13 @@ Learning Java programming language
 
 :ballot_box_with_check: Loops
 
-:ballot_box_with_check: Classes
+***Section Three***
 
-:ballot_box_with_check: Constructors
+:book: Classes
 
-:ballot_box_with_check: Inheritance
+:book: Constructors
+
+:book: Inheritance
 
 :book: Composition
 
