@@ -14,13 +14,13 @@ Learning Java programming language
 
 :ballot_box_with_check: Expressions
 
-:ballot_box_with_check: Statements
-
 ***Section Two***
+
+:ballot_box_with_check: Statements
 
 :ballot_box_with_check: Methods
 
-:ballot_box_with_check: Loops
+:ballot_box_with_check: Control Flow Statments
 
 ***Section Three***
 
