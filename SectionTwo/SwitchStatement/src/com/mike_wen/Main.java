@@ -47,5 +47,20 @@ public class Main {
                     System.out.println("Value was A,B,C,D or E");
                     break;
         }
+
+
+        String month = "January";
+        switch (month.toLowerCase()){
+
+            case "january":
+                System.out.println("january");
+                break;
+            case "february":
+                System.out.println("january");
+                break;
+            case "march":
+                System.out.println("january");
+                break;
+        }
     }
 }
