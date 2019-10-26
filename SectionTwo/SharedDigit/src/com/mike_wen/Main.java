@@ -6,7 +6,7 @@ public class Main {
         System.out.println(hasSharedDigit(22,72));
     }
 
-    // Prawda jest taka, że nie potrzeba tu pętli :P, ale cóż.... jak się jest upartym osłem, to się próbuje :=)
+    // Prawda jest taka, że nie potrzeba tu pętli :P, ale cóż.... jak się jest upartym osłem, to się próbuje :=) !!!
 
     public static boolean hasSharedDigit(int first,int second){
         int numberOne = 0;
