@@ -26,7 +26,7 @@ public class Main {
         while (number != 0){
             digit = (number % 10);
             sum = sum + digit;
-                if (number > 10){
+                if (number > 9){
                     sum = sum * 10;
                 }
 
