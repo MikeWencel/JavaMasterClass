@@ -3,7 +3,7 @@ package com.mike_wen;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(getLargestPrime(217));
+        System.out.println(getLargestPrime(45));
     }
 
     public static int getLargestPrime(int number){
@@ -15,6 +15,7 @@ public class Main {
                 i++;
                 if ((number % i == 0) && (number > i)){
                     if (i < number){
+                        
                         prime = i;
                     }
 
