@@ -8,18 +8,16 @@ public class Main {
 
     public static int getLargestPrime(int number){
         int count = 0;
-        int i=0;
+        int i=1;
         int prime = 0;
         if (number > 0){
             while (i < number){
                 i++;
-                if ((number % i == 0) && (number > i)){
-                    if (i < number){
-                        
-                        prime = i;
-                    }
-
-
+                if (i == number){
+                    break;
+                }
+                if (number % i == 0){
+                    prime = number / i;
 
                 }
             }return prime;
