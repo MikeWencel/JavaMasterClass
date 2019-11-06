@@ -5,35 +5,39 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-    int count = 0;
-    int max = 0;
-    int min = 0;
-    int number = 0;
-    Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number:");
-    boolean hasNextInt = scanner.hasNextInt();
 
-    if (hasNextInt){
-        while (count < 10) {
+        Scanner scanner = new Scanner(System.in);
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+
+        while(true) {
+
             System.out.println("Enter number:");
-            number = scanner.nextInt();
+            boolean isAnInt = scanner.hasNextInt();
 
-            System.out.println("Number is " + number);
+            if(isAnInt) {
 
-            if (number >= number) {
-                max = number;
+                int number = scanner.nextInt();
+
+                if(number > max) {
+                    max = number;
+                }
+
+                if(number < min) {
+                    min = number;
+                }
+
+            } else {
+                break;
             }
 
-            if (number <= number) {
-                min = number;
-            }
-            count++;
+            scanner.nextLine();
         }
-    }
 
-
-
+        System.out.println("min= "+ min + ", max= " + max);
         scanner.close();
-    }
 
+    }
 }
