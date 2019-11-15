@@ -1,33 +1,32 @@
 package com.mike_wen;
-
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        inputThenPrintSumAndAverange();
-
-
+        inputThenPrintSumAndAverage();
     }
 
-    public static void inputThenPrintSumAndAverange() {
-        int x;
+    public static void inputThenPrintSumAndAverage(){
+        Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        int number;
         int sum = 0;
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter number: ");
-        boolean hasNextInt = scan.hasNextInt();
 
-        if (hasNextInt){
-            x = scan.nextInt();
-            while (hasNextInt){
-                System.out.println("Enter your number: ");
-                x = scan.nextInt();
-                sum = x + sum;
+        while (true){
+            System.out.println("Enter number: ");
+
+            boolean isAnInt = scanner.hasNextInt();
+
+            if (isAnInt){
+                number = scanner.nextInt();
+                sum = number + sum;
+            }else{
+                break;
             }
+            scanner.nextLine();
+
         }
-
-        scan.nextInt();
-        scan.close();
-
+        scanner.close();
     }
 }
