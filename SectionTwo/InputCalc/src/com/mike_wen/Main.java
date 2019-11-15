@@ -17,10 +17,13 @@ public class Main {
         System.out.println("Enter number: ");
         boolean hasNextInt = scan.hasNextInt();
 
-        while (hasNextInt) {
-            System.out.println("Enter number: ");
-            hasNextInt = scan.hasNextInt();
-
+        if (hasNextInt){
+            x = scan.nextInt();
+            while (hasNextInt){
+                System.out.println("Enter your number: ");
+                x = scan.nextInt();
+                sum = x + sum;
+            }
         }
 
         scan.nextInt();
