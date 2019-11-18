@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	getBucketCount(3.4,2.1,1.5,2);
+
+	System.out.println(getBucketCount(3.4,2.1,1.5));
+	System.out.println(getBucketCount(7.25,4.3,2.35));
     }
     public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets){
         double area;
@@ -18,5 +21,18 @@ public class Main {
             return bucketCover;
 
         }
+    }
+
+    public static int getBucketCount(double width,double height, double arePerBucket){
+        double area;
+        if ((width <0) && (height < 0) ){
+            return -1;
+        }else{
+           area = width * height;
+           double buckets = area / arePerBucket;
+           int bucketCover = (int) Math.ceil(buckets);
+           return bucketCover;
+        }
+
     }
 }
