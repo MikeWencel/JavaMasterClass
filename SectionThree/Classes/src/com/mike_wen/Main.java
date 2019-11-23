@@ -5,10 +5,15 @@ public class Main {
     public static void main(String[] args) {
         Car porshe =  new Car();
         Car mercedes = new Car();
+        // Calling set model method, with object that is private
 
-        //accesing variables - different between private and public
+        // setting model = you can't print it.
+        porshe.setModel("Carrera");
 
-        porshe.model = "Carrera";
+
+        // After using method getter you can print model
+        // In java we use getter and setter
+        System.out.println("Model is " + porshe.getModel());
 
     }
 }
