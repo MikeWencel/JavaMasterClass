@@ -40,4 +40,15 @@ public class Person {
             return true;
         }
     }
+
+    public String getFullName (){
+        String fullName = firstName + " " + lastName;
+        if (firstName.isEmpty()&& lastName.isEmpty()){
+            return " ";
+        }else if(lastName.isEmpty()){
+            return firstName;
+        }else if(firstName.isEmpty()){
+            return lastName;
+        }else return fullName;
+    }
 }
