@@ -1,16 +1,28 @@
 package com.mikewencel;
 
-import java.util.Scanner;
-
 public class BankAccount {
 
-    Scanner scanner = new Scanner();
+
 
     private String accountNumber;
-    public String customerName;
-    public String email;
-    public String phoneNumber;
-    public double balance;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
+    private double balance;
+
+    public void deposit(double depositAmount){
+        this.balance += depositAmount;
+        System.out.println("deposit of " + depositAmount + ". New balance is " + balance);
+    }
+
+    public void withdrawal(double withdrawalAmount){
+        if (this.balance - withdrawalAmount < 0){
+            System.out.println("Only " + this.balance + " avaible. Withdrawal not processed");
+        }else {
+            this.balance =- withdrawalAmount;
+            System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balance = " + balance);
+        }
+    }
 
     public String getAccountNumber() {
         return accountNumber;
@@ -52,10 +64,7 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
-    public static double deposit(double number){
-        System.out.println("How much money you want to put in your bank account");
 
-    }
 }
 
 
