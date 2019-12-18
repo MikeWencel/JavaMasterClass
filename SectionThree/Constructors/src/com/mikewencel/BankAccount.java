@@ -10,6 +10,18 @@ public class BankAccount {
     private String phoneNumber;
     private double balance;
 
+    public BankAccount(){
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber,String customerName, String email, String phoneNumber, double balance){
+        this.accountNumber = accountNumber;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.balance = balance;
+    }
+
     public void deposit(double depositAmount){
         this.balance += depositAmount;
         System.out.println("deposit of " + depositAmount + ". New balance is " + balance);
@@ -17,7 +29,7 @@ public class BankAccount {
 
     public void withdrawal(double withdrawalAmount){
         if (this.balance - withdrawalAmount < 0){
-            System.out.println("Only " + this.balance + " avaible. Withdrawal not processed");
+            System.out.println("Only " + this.balance + " available. Withdrawal not processed");
         }else {
             this.balance =- withdrawalAmount;
             System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balance = " + balance);
