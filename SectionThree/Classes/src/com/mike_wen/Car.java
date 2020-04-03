@@ -1,6 +1,7 @@
 package com.mike_wen;
 
 public class Car {
+
     private int doors;
     private int wheels;
     private String model;
@@ -8,8 +9,8 @@ public class Car {
     private String colour;
 
     public void setModel(String model){
-        String validModel = model.toLowerCase();
-        if (validModel.equals("carrera") || validModel.equals("mercedes")){
+        String ValidModel = model.toLowerCase();
+        if (ValidModel.equals("190E") || ValidModel.equals("S40") ){
             this.model = model;
         }else {
             this.model = "Unknown";
@@ -17,11 +18,7 @@ public class Car {
 
     }
 
-    // If you use a getter not only setter, you can print something
-
-    public String getModel(){
+    public String getModel() {
         return this.model;
     }
 }
-
-
