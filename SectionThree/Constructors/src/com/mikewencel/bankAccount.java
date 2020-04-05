@@ -18,7 +18,7 @@ public class bankAccount {
         if (withdrawalAmount > this.balance){
             System.out.println("Insufficient money on your bank account");
         }else {
-            this.balance =- withdrawalAmount;
+            this.balance = balance - withdrawalAmount;
             System.out.println(this.customerName + " withdrawal: " + withdrawalAmount);
         }
 
