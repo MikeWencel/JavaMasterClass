@@ -14,7 +14,18 @@ public class Main {
     System.out.println(empty.getBalance());
     System.out.println(empty.getCustomerName());
 
+        System.out.println("*************");
+        System.out.println("VIP CUSTOMERS");
 
+        VipCustomer firstPerson = new VipCustomer();
+        System.out.println(firstPerson.getName());
+
+        VipCustomer secondPerson = new VipCustomer("George",2000);
+        System.out.println(secondPerson.getName());
+
+        VipCustomer thirdPerson = new VipCustomer("Joshua",5000,"joshua323214@gmail.com");
+        System.out.println(thirdPerson.getName());
+        System.out.println(thirdPerson.getEmail());
 
 
     }
