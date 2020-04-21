@@ -1,13 +1,14 @@
 package com.mikewencel;
 
 public class Cylinder extends Circle {
-    private double height;
 
-    public Cylinder(double height,double radius) {
-        if (height < 0){
-            this.height = 0;
-        }else {
-            this.height = height;
+    private  double height;
+
+    public Cylinder(double radius, double height) {
+        super(radius);
+        this.height = height;
+        if (height < 0.0){
+            this.height = 0.0;
         }
     }
 
@@ -15,7 +16,8 @@ public class Cylinder extends Circle {
         return height;
     }
 
+
     public double getVolume(){
-        return getArea() * getHeight();
+        return (getArea() * height);
     }
 }
