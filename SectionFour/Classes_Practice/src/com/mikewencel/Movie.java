@@ -45,4 +45,10 @@ public class Movie {
     public void setCategory(Category category) {
         this.category = category;
     }
+
+    public void printMovieData(){
+        System.out.println(getName());
+        System.out.println(getDirector());
+        System.out.println(getPrice());
+    }
 }
