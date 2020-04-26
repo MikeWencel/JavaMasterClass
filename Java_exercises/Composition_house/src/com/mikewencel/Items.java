@@ -18,7 +18,7 @@ public class Items {
     }
 
     public void lightsOnNow(){
-        System.out.println("There is " + getPlug() + " plugs to connect battery");
+        System.out.println("There are " + getPlug() + " plugs to connect battery");
     }
 
     public String getDoors() {
