@@ -24,19 +24,19 @@ Learning Java programming language
 
 ***Section Three***
 
-:book: Classes
+:ballot_box_with_check: Classes
 
-:book: Constructors
+:ballot_box_with_check: Constructors
 
-:book: Inheritance
+:ballot_box_with_check: Inheritance
 
-:book: Composition
+:ballot_box_with_check: Composition
 
-:black_square_button: Encapsulation
+:ballot_box_with_check: Encapsulation
 
-:black_square_button: Polymorphism
+:ballot_box_with_check: Polymorphism
 
-:black_square_button: Arrays
+:book: Arrays
 
 :black_square_button: Autoboxing and unboxing
 
