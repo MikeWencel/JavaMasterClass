@@ -37,10 +37,16 @@ public class Main {
 
         System.out.println(alphabet[5]);
 
-
-
-
-
-
+        Enigma("Cesar");
     }
+
+        public static void Enigma(String word){
+        char[] a = word.toCharArray();
+        for(int i = 0; i < a.length;i++){
+            int b = a[i];
+            b += 3;
+            a[i] = (char)b;
+        }
+            System.out.println(a);
+        }
 }
