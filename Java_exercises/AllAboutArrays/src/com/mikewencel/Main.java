@@ -41,12 +41,17 @@ public class Main {
     }
 
         public static void Enigma(String word){
-        char[] a = word.toCharArray();
-        for(int i = 0; i < a.length;i++){
-            int b = a[i];
-            b += 3;
-            a[i] = (char)b;
+        //Po otrzymaniu słowa jako String word, przerabian word w tablice o typie CHAR
+        char[] arr = word.toCharArray();
+        //Mogę teraz według indeksu wyciągnać odpowiednią literę
+            System.out.println(arr[2]);
+            //Pętla przelatuje przez całą tablicę
+        for(int i = 0; i < arr.length;i++){
+            //Tworzę zmienną INT o nazwie myIndex, która sprawdza numer CHAR w alfabecie
+            int myIndex = arr[i];
+            myIndex += 3;
+            arr[i] = (char)myIndex;
         }
-            System.out.println(a);
+            System.out.println(arr);
         }
 }
