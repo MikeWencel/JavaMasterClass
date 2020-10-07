@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println(szyfer());
+    }
 
+    static char[] szyfer(){
         Scanner scanner = new Scanner(System.in);
 
         String text = scanner.nextLine();
@@ -25,13 +28,10 @@ public class Main {
             if((char)num > 'Z'){
                 num = num - 26;
             }
-
-
-
-
             newText[i] = (char) num;
-
         }
-        System.out.println(newText);
+        return newText;
+
     }
+
 }
