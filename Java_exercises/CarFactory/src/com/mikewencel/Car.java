@@ -60,15 +60,31 @@ public class Car {
         this.doors = doors;
         this.capacity = capacity;
         this.avgBurn = avgBurn;
+        carAmount++;
     }
 
 
+    private static double avgFuelBurn(double routeLength){
+        double fuelBurn = (routeLength * routeLength)/100;
+        return fuelBurn;
+      }
 
-//    private static double mathBurn(double routeLength){
-//
-//    }
-//
-//    public static double travelCost(double routeLength, double fuelPrice){
-//
-//    }
+    public static double travelCost(double routeLength, double fuelPrice){
+        double cost = (avgFuelBurn(routeLength)*fuelPrice);
+        return cost;
+    }
+
+    public void writeInfo(){
+        System.out.println("Marka:            " + this.mark);
+        System.out.println("Model:            " + this.model);
+        System.out.println("Drzwi:            " + this.doors);
+        System.out.println("Pojemność:        " + this.capacity);
+        System.out.println("Średnie spalanie: " + this.avgBurn);
+    }
+
+    public void  carInfoAmount(){
+        System.out.println("Ilość samochodów " + carAmount);
+    }
+
+
 }
