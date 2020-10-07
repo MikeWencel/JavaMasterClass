@@ -1,33 +1,37 @@
 package com.mikewencel;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        char c;
+        Scanner scanner = new Scanner(System.in);
+
+        String text = scanner.nextLine();
+
+        scanner.close();
+        String upperText = text.toUpperCase();
+
+        char newText[] = upperText.toCharArray();
 
 
-        int i = 0;
-        for (c = 'A'; c <= 'Z'; ++c) {
-            System.out.println(c + " ");
-            i++;
+        for(int i = 0;i < newText.length;i++){
+            int num = newText[i];
+            num = num + 3;
+            if(num == 35){
+                num = 32;
+            }
+            if((char)num > 'Z'){
+                num = num - 26;
+            }
+
+
+
+
+            newText[i] = (char) num;
+
         }
-
-        System.out.println(i);
-
-        char[]alphabet = new char [i];
-        int j = 0;
-        for (c = 'A'; c <= 'Z'; ++c) {
-            alphabet[j] = c;
-            j++;
-        }
-
-        System.out.println(alphabet[1]);
-
-
-
-
-
-
+        System.out.println(newText);
     }
 }
