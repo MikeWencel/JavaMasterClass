@@ -5,33 +5,34 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(szyfer());
-    }
-
-    static char[] szyfer(){
         Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String text = scanner.nextLine();
 
-        String text = scanner.nextLine();
+            String upperText = text.toUpperCase();
 
-        scanner.close();
-        String upperText = text.toUpperCase();
-
-        char newText[] = upperText.toCharArray();
+            char newText[] = upperText.toCharArray();
 
 
-        for(int i = 0;i < newText.length;i++){
-            int num = newText[i];
-            num = num + 3;
-            if(num == 35){
-                num = 32;
+            for (int i = 0; i < newText.length; i++) {
+                int num = newText[i];
+                num = num + 3;
+                if (num == 35) {
+                    num = 32;
+                }
+                if ((char) num > 'Z') {
+                    num = num - 26;
+                }
+                newText[i] = (char) num;
             }
-            if((char)num > 'Z'){
-                num = num - 26;
-            }
-            newText[i] = (char) num;
+            System.out.println(newText);
+
         }
-        return newText;
-
+        scanner.close();
     }
-
 }
+
+
+
+
+
