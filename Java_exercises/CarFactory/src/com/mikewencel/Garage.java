@@ -6,6 +6,7 @@ public class Garage {
     private int carAmount = 0;
     private Car [] cars;
 
+
     public String getAdress() {
         return adress;
     }
@@ -20,6 +21,7 @@ public class Garage {
 
     public void setGarageCapacity(int garageCapacity) {
         this.garageCapacity = garageCapacity;
+        cars = new Car[garageCapacity];
     }
 
     public int getCarAmount() {
@@ -30,9 +32,11 @@ public class Garage {
         this.carAmount = carAmount;
     }
 
-    public Garage(){
-        this("Unknown",0,0);
+    public Garage() {
+        this("Unknown", 0, 0);
+
     }
+
 
     public Garage(String adress,int garageCapacity, int carAmount){
         this.adress = adress;
@@ -43,6 +47,8 @@ public class Garage {
     public static void parkCar(String Car){
 
     }
+
+
 
 
 }

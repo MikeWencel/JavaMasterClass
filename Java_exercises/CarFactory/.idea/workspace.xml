@@ -15,7 +15,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="306">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
@@ -24,8 +24,8 @@
       <file leaf-file-name="Garage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Garage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="257">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -33,7 +33,7 @@
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="750">
               <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
             </state>
           </provider>
@@ -67,10 +67,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="64" />
-    <option name="width" value="630" />
-    <option name="height" value="642" />
+    <option name="x" value="146" />
+    <option name="y" value="4" />
+    <option name="width" value="844" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -78,7 +78,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +101,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,15 +149,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602085808086</updated>
       <workItem from="1602085812813" duration="3439000" />
-      <workItem from="1602187617905" duration="729000" />
+      <workItem from="1602187617905" duration="1143000" />
+      <workItem from="1602270251837" duration="61000" />
+      <workItem from="1602785324189" duration="1403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4168000" />
+    <option name="totallyTimeSpent" value="6046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="64" width="630" height="642" extended-state="0" />
+    <frame x="146" y="4" width="844" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -170,10 +172,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5166932" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37381405" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29315478" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32084692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2379227" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -183,11 +185,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,24 +213,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Garage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="306">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="1309">
           <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Garage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
+        <state relative-caret-position="153">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Garage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
