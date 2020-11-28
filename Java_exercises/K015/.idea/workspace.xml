@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wencelmichael/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="68" />
+            <state relative-caret-position="289">
+              <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,12 +129,12 @@
       <workItem from="1606415980369" duration="3696000" />
       <workItem from="1606559240406" duration="189000" />
       <workItem from="1606560243535" duration="8662000" />
-      <workItem from="1606568986423" duration="1257000" />
+      <workItem from="1606568986423" duration="1607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14536000" />
+    <option name="totallyTimeSpent" value="14886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -205,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wencelmichael/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="68" />
+        <state relative-caret-position="289">
+          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
