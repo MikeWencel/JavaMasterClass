@@ -7,11 +7,18 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        while (scanner.hasNext()) {
+        String flag = "default";
+        int numOne = 0;
+        int numTwo = 1;
+        while (scanner.hasNextLine()) {
             String str = scanner.nextLine();
+            if (str.isEmpty()) {
+                break;
+            }
             String[] tab = str.split(" ");
 
+            numOne = tab[0].length();
+            numTwo = tab[2].length();
 
             if (tab[0].length() == tab[2].length()) {
                 char[] first = new char[tab[0].length()];
@@ -27,43 +34,90 @@ public class Main {
                     case "==": {
                         for (int i = 0; i < first.length; i++) {
                             if (first[i] != second[i]) {
-                                System.out.println(0);
+                                flag = "0";
                                 break;
                             } else {
-                                //String flaga
+                                flag = "1";
                             }
                         }
+                        System.out.println(flag);
                     }
                     break;
                     case ">=": {
                         for (int i = 0; i < first.length; i++) {
-                            if (first[i] <= second[i]) {
-                                System.out.println(0);
-                                break;
+                            if (first[i] >= second[i]) {
+                                flag = "1";
                             } else {
-                                System.out.println(1);
+                                flag = "0";
                                 break;
                             }
                         }
+                        System.out.println(flag);
                     }
                     break;
                     case "<=": {
                         for (int i = 0; i < first.length; i++) {
-                            if (first[i] >= second[i]) {
-                                System.out.println(0);
+                            if (first[i] <= second[i]) {
+                                flag = "1";
+                            } else {
+                                flag = "0";
+                                break;
+
+                            }
+                        }
+                        System.out.println(flag);
+                    }
+                    break;
+                    case "!=": {
+                        for (int i = 0; i < first.length; i++) {
+                            if (first[i] != second[i]) {
+                                flag = "1";
                                 break;
                             } else {
-                                System.out.println(1);
-                                break;
+                                flag = "0";
                             }
+                        }
+                        System.out.println(flag);
+                    }
+                }
+            } else {
+                switch (tab[1]) {
+                    case ">=": {
+                        if (numOne > numTwo) {
+                            System.out.println(1);
+                        } else {
+                            System.out.println(0);
                         }
                     }
                     break;
+                    case "<=": {
+                        if (numOne < numTwo) {
+                            System.out.println(1);
+                        } else {
+                            System.out.println(0);
+                        }
+                    }
+                    break;
+                    case "!=": {
+                        if (numOne != numTwo) {
+                            System.out.println(1);
+                        } else {
+                            System.out.println(0);
+                        }
+                    }
+                    break;
+
+                    case "==": {
+                        System.out.println(0);
+                    }
+                    break;
+                    default:
+                        System.out.println(0);
+                        break;
                 }
             }
-            }
-        scanner.close();
         }
-
     }
+}
+
 
