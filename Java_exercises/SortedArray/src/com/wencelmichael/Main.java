@@ -4,20 +4,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-    getIntegers();
-
-
-
+    printArray(getIntegers(6));
 
     }
 
-    public static void getIntegers(){
+    public static int[] getIntegers(int num){
         Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
         int arr[] = new int[num];
         for(int i = 0; i < arr.length;i++){
         arr[i] = scanner.nextInt();
         }
+        scanner.close();
+        return arr;
     }
 
     public static void printArray(int arr[]){
