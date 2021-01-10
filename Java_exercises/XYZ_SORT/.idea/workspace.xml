@@ -18,8 +18,13 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="519">
               <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="67" selection-end-column="9" />
+=======
+            <state relative-caret-position="461">
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
             </state>
           </provider>
         </entry>
@@ -43,10 +48,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="422" />
     <option name="y" value="106" />
     <option name="width" value="1081" />
     <option name="height" value="778" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -54,15 +66,46 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XYZ_SORT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XYZ_SORT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XYZ_SORT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XYZ_SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XYZ_SORT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XYZ_SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mikewencel" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SortedArray" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,44 +144,79 @@
       <option name="presentableId" value="Default" />
       <updated>1606341722453</updated>
       <workItem from="1606341727158" duration="78000" />
+<<<<<<< HEAD
       <workItem from="1609976947861" duration="223000" />
       <workItem from="1610289590428" duration="4766000" />
       <workItem from="1610297142357" duration="708000" />
+=======
+      <workItem from="1606559432429" duration="809000" />
+      <workItem from="1607453926975" duration="1589000" />
+      <workItem from="1607530257081" duration="22000" />
+      <workItem from="1609504654779" duration="43000" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="5775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="2541000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="7" />
+=======
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.28923476" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.134375" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46130952" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35208333" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39818418" />
       <window_info id="Favorites" order="2" side_tool="true" />
+=======
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.219375" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Messages" order="7" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -167,15 +245,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+=======
+        <state relative-caret-position="1564">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1071">
           <caret line="63" column="50" lean-forward="true" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+=======
+        <state relative-caret-position="1564">
+          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="32" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
         </state>
       </provider>
     </entry>
@@ -188,8 +283,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mikewencel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="519">
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="67" selection-end-column="9" />
+=======
+        <state relative-caret-position="461">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+>>>>>>> 65b8bbba07e408476f5cbfd2150e5292dfde4f6f
         </state>
       </provider>
     </entry>
