@@ -38,6 +38,7 @@ public class Main {
         System.out.println("***********************************");
         String[] firstArray = {"Blue", "Yellow", "Green", "Purple"};
         String[] secondArray = new String[10];
+
         System.out.println("Color on place 3 before loop in secondArray is: " + secondArray[2]);
         for (int i = 0; i < firstArray.length; i++) {
             secondArray[i] = firstArray[i];
