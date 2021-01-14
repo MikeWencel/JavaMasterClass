@@ -61,7 +61,6 @@ public class Main {
                             tab[i + 1][1] = temp[1];
                             tab[i + 1][2] = temp[2];
                             count++;
-
                         }
                     }
                 }
