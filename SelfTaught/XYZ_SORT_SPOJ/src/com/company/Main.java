@@ -8,27 +8,18 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-//        int n = scanner.nextInt();
-//        int[][] tab = new int[n][3];
-//
-//        for (int i = 0; i < n; i++) {
-//            int x = scanner.nextInt();
-//            int y = scanner.nextInt();
-//            int z = scanner.nextInt();
-//            tab[i][0] = x;
-//            tab[i][1] = y;
-//            tab[i][2] = z;
-//        }
-//        scanner.close();
+        int n = scanner.nextInt();
+        int[][] tab = new int[n][3];
 
-        int tab[][] = {
-                {3, 2, 2},
-                {2, 2, 1},
-                {1, 2, 3},
-                {3, 2, 1},
-                {3, 1, 2},
-                {1, 1, 1}
-        };
+        for (int i = 0; i < n; i++) {
+            int x = scanner.nextInt();
+            int y = scanner.nextInt();
+            int z = scanner.nextInt();
+            tab[i][0] = x;
+            tab[i][1] = y;
+            tab[i][2] = z;
+        }
+        scanner.close();
 
         int count = 1;
         while (count > 0) {
@@ -47,18 +38,21 @@ public class Main {
                     }
                     for (int z = 0; z < tab.length - 1; z++) {
 
-                        if (tab[i][j] == tab[i + 1][j] && tab[i][j] > tab[i][j + 1]) {
+                        if (tab[i][j] == tab[i + 1][j] && tab[i+1][j + 1] < tab[i][j+1]) {
+
                             int[] temp = new int[]{tab[i][0], tab[i][1], tab[i][2]};
+
                             tab[i][0] = tab[i + 1][0];
                             tab[i][1] = tab[i + 1][1];
                             tab[i][2] = tab[i + 1][2];
+
                             tab[i + 1][0] = temp[0];
                             tab[i + 1][1] = temp[1];
                             tab[i + 1][2] = temp[2];
                             count++;
                         }
 
-                        if (tab[i][j] == tab[i + 1][j] && tab[i][j] == tab[i][j + 1] && tab[i][j] == tab[z][z + 1]) {
+                       if (tab[i][j] == tab[i + 1][j] && tab[i+1][j + 1] == tab[i][j+1] && tab[i+1][j + 2] < tab[i][j+2]) {
                             int[] temp = new int[]{tab[i][0], tab[i][1], tab[i][2]};
                             tab[i][0] = tab[i + 1][0];
                             tab[i][1] = tab[i + 1][1];
@@ -73,6 +67,7 @@ public class Main {
                 }
 
             }
+
         }
         for (int[] arry : tab) {
             for (int element : arry)
